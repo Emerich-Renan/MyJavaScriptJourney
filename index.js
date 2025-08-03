@@ -7,5 +7,5 @@ let horario = `${String(data.getHours()).padStart(2, "0")}:${String(
 ).padStart(2, "0")}`;
 
 console.log(
-  `Olá! Meu nome é ${nome}, tenho ${idade}. Estou aprendendo JavaScript hoje às ${horario}`
+  `Oi! Meu nome é ${nome}, tenho ${idade}. Estou aprendendo JavaScript hoje às ${horario}`
 );
